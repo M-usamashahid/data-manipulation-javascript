@@ -1,0 +1,168 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#list{
+    margin: auto;
+
+}
+#inputContainer input{
+    width: 667px;
+    padding: 4px 0 4px 0;
+    padding-left: 91px;
+    /* margin-left: 84px; */
+    font-size: 28px;
+    margin: 12px;
+    border: thin solid #afafaf;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    margin-left: 0PX;
+    MARGIN-RIGHT: 0;
+}
+#inputContainer input:focus{
+    border-radius: 3px;
+}
+#inputContainer label{
+    position: relative;
+    top: 42px;
+    left: 12px;
+    right: auto;
+    border-right:  thin solid #afafaf;
+    padding: 12px 18px;
+
+
+}
+#inputContainer{
+    width: 760px;
+    margin: auto;
+}
+#inputContainer ul#listItem{
+    list-style-type: none;
+    margin: 16px;
+    width: 100%;
+    margin-left: 0;
+}
+#inputContainer #listItem li{
+    border-left: thin solid #afafaf;
+    border-right: thin solid #afafaf;
+    border-bottom: thin solid #afafaf;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#inputContainer #listItem li:hover{
+    background-color: whitesmoke;
+
+}
+#inputContainer #listItem li:first-child{
+    border-top: thin solid #afafaf;
+}
+#inputContainer #listItem li span{
+    vertical-align: 2px;
+    margin-left: 12px;
+}
+#inputContainer img.thumbnail {
+    width: 80px;
+    height: 50px;
+}
+#inputContainer a{
+    display: block;
+}
+#mainImg{
+    float: right;
+    clear: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#detail{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#title{
+    text-align: center;
+    padding: 10px;
+}
+a#readMore, article{
+    display: inline;
+
+}
+#relatedStories{
+    margin: auto;
+}
+#relatedItem{
+    margin-top: 10px;
+
+}
+#relatedItem ul{
+    list-style-type: none;
+    margin: 20px;
+}
+#relatedItem li{
+    display: inline-block;
+    width: 374px;
+    background: whitesmoke;
+    margin: 12px;
+    /* margin-left: 3%; */
+    vertical-align: top;
+    border: thin solid #E2E0E0;
+    padding: 15px;
+    height: 6em;
+}
+#relatedItem a{
+    color: black;
+}
+@media screen and (max-width: 1340px) {
+    #relatedStories{
+        margin: auto;
+        width: 900px;
+    }
+
+}
+@media screen and (max-width: 920px) {
+    #relatedStories{
+        margin: auto;
+        width: 400px;
+    }
+
+}
+@media screen and (max-width: 520px) {
+    #relatedStories{
+        margin: auto;
+        width: 320px;
+    }
+    #relatedItem li{
+        width: 300px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    #relatedItem ul {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 780px) {
+
+    #inputContainer, #list{
+        width: 100%;
+
+    }
+    #inputContainer input{
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #inputContainer, #list{
+        width: 100%;
+
+    }
+    #inputContainer input{
+        width: 70%;
+    }
+
+
+}
